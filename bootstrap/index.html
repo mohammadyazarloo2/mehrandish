@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header class="position-fixed w-100 z-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">مهراندیش</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >صفحه اصلی</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  محصولات
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">تیشرت</a></li>
+                  <li><a class="dropdown-item" href="#">شلوار</a></li>
+                  <li><a class="dropdown-item" href="#">موبایل</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./register.html">عضویت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+          <div class="ok">
+            <div class="profile btn btn-outline-info rounded-circle">
+              <span class="bi bi-person"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active">
+            <img
+              src="./assets/image/pngtree-code-clipart-illustration-vector-png-image_6801885.png"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/image/pngtree-programming-clipart-cartoon-young-man-with-headphones-working-on-computer-illustration-vector-png-image_6812499.png"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div class="n-p">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid new-products my-4 bg-light">
+        <div class="row p-3">
+          <div class="col-12 d-flex justify-content-between align-items-center">
+            <h2 class="text-danger">محصولات جدید</h2>
+            <button class="btn_more_product btn btn-warning">بیشتر</button>
+          </div>
+        </div>
+
+        <div class="row gy-4 py-4">
+          <div class="col-6 col-lg-3 col-md-4">
+            <div
+              class="bg-dark-subtle rounded-1 overflow-hidden position-relative"
+            >
+              <div
+                class="badge bg-danger position-absolute top-0 start-0 rounded-circle"
+              >
+                50%
+              </div>
+              <div class="product-img">
+                <img
+                  class="img-fluid"
+                  src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+                />
+              </div>
+              <div
+                class="product-details p-3 d-flex justify-content-between align-items-center"
+              >
+                <h5 class="m-0">pants</h5>
+                <button class="btn btn-outline-danger">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-md-4">
+            <div class="bg-dark-subtle rounded-1 overflow-hidden">
+              <div class="product-img">
+                <img
+                  class="img-fluid"
+                  src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+                />
+              </div>
+              <div class="product-details p-3">
+                <span>pants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-md-4">
+            <div class="bg-dark-subtle rounded-1 overflow-hidden">
+              <div class="product-img">
+                <img
+                  class="img-fluid"
+                  src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+                />
+              </div>
+              <div class="product-details p-3">
+                <span>pants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-md-4">
+            <div class="bg-dark-subtle rounded-1 overflow-hidden">
+              <div class="product-img">
+                <img
+                  class="img-fluid"
+                  src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+                />
+              </div>
+              <div class="product-details p-3">
+                <span>pants</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 col-md-4">
+            <div class="bg-dark-subtle rounded-1 overflow-hidden">
+              <div class="product-img">
+                <img
+                  class="img-fluid"
+                  src="./assets/image/programer-learning-programming-languages-by-computer-laptop-on-website-and-tutorial-channel-free-vector.jpg"
+                />
+              </div>
+              <div class="product-details p-3">
+                <span>pants</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

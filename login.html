@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="png" href="./assets/img/t1.jpg" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/login.css" rel="stylesheet" />
+    <link
+      href="./assets/bootstrap-icons/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>صفحه ورود</title>
+  </head>
+  <body>
+    <div class="loading">
+      <span class="l1">.</span>
+      <span class="l2">.</span>
+      <span class="l3">.</span>
+    </div>
+    <header>
+      <div class="nav">
+        <div class="nav-menu">
+          <div class="nav-items flex">
+            <div class="nav-logo">
+              <img src="./assets/img/icon/logo.png" alt="" />
+            </div>
+            <ul>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">صفحه اصلی</a>
+              </li>
+              <li class="nav-item">
+                <a href="./login.html" class="nav-link">صفحه ورود</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">صفحه عضویت</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">تماس با ما </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">درباره ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-icon">
+          <i class="bi bi-headset red"></i>
+          <i class="bi bi-cart"></i>
+          <i class="bi bi-person-circle"></i>
+        </div>
+      </div>
+      <div class="nav2">
+        <div class="nav2-tex">
+          <div class="input-group">
+            <input class="nav2-search" type="search" placeholder="جستجو ..." />
+            <i class="bi bi-search"></i>
+          </div>
+        </div>
+        <button class="btn btn-green nav2-amir" type="button">
+          درخواست پروژه
+        </button>
+      </div>
+    </header>
+
+    <div class="login-section">
+      <div class="login-section-main">
+        <div class="login-section-1">
+          <div class="img-profile-comapny">
+            <img src="./assets/img/favicon.png" />
+          </div>
+          <div class="name-comapny">
+            <span>آموزشگاه مهراندیش</span>
+          </div>
+          <div class="company-d">
+            <span>
+              آموزشگاه کامپیوتر تدریس دورهای برنامه نویسی و کامپیوتر زیر نظر
+              سازمان فنی و حرفه ای کشور
+            </span>
+          </div>
+          <div class="registers">
+            <button class="google" type="button">عضویت با اکانت گوگل<i class="bi bi-google"></i></button>
+            <button class="github" type="button">عضویت با اکانت گیت هاب<i class="bi bi-github"></i></button>
+          </div>
+        </div>
+        <div class="login-section-2">
+          <form method="post" class="form-login">
+            <div class="input-group-addon">
+              <label for="username">نام کاربری</label>
+              
+              <div class="username-addon">
+                <input type="text" id="username" required  class="username" placeholder="نام کاربری" />
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div class="username-alert"></div>
+            </div>
+            <div class="input-group-addon">
+              <label for="email">پست الکترونیک</label>
+              <input type="email" id="email" class="email" placeholder="پست الکترونیک" />
+            </div>
+            <div class="email-alert"></div>
+
+            <div class="input-group-addon">
+              <label for="password">کلمه عبور</label>
+              <input type="password" required id="password" class="password" placeholder="کلمه عبور" />
+            </div>
+            <div class="remember">
+              
+              <input type="checkbox" id="remmberme" class="remmberme">
+              <label for="remmberme">مرا به خاطر بسپار</label>
+            </div>
+            
+
+              <input type="submit" class="login-btn" value="ورود به سایت" />
+            
+              <div class="register-page">
+                <label for="register-go">آیا عضو نشده اید؟</label>
+                <button type="button" id="register-go" class="register-btn">عضویت در سایت</button>
+              </div>
+            
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="switch">
+      <button class="sun active">
+        <i class="bi bi-brightness-high"></i>
+      </button>
+      <button class="night">
+        <i class="bi bi-moon"></i>
+      </button>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

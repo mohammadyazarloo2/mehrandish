@@ -1,0 +1,94 @@
+
+
+
+.details{
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.details div{
+    width: calc(100%/2);
+}
+
+
+.details-picture{
+    position: relative;
+}
+
+.details-picture div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.details-picture .img-1{
+    top: 10%;
+    left: 10%;
+}
+.details-picture .img-2{
+    top: 20%;
+    left: 60%;
+}
+.details-picture .img-3{
+    top: 50%;
+    left: 30%;
+    mix-blend-mode: multiply;
+}
+.details-picture div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.dorea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dore{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: aqua;
+    width:900px;
+}
+
+
+.dore div{
+    width: 80px;
+    height: 80px;
+}
+
+.dore div img{
+    width: 100%;
+    height: 100%;
+}
+
+.dore-img1{
+    bottom: 10px;
+    right: 30px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon{
+    height: 20px;
+}
+.details-text{
+    padding: 15px;
+}
+.details-text p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

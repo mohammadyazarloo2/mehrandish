@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محصولات</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header class="position-fixed w-100 z-3 top-0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">مهراندیش</a>
+
+          <div class="offcanvas offcanvas-end" id="navbarNavDropdown">
+            <div class="offcanvas-header">
+                <h2>amir</h2>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="./index.html"
+                        >صفحه اصلی</a
+                      >
+                    </li>
+      
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        محصولات
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="./products.html">تیشرت</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">شلوار</a></li>
+                        <li><a class="dropdown-item" href="#">موبایل</a></li>
+                      </ul>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link" href="./register.html">عضویت</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                  </ul>
+            </div>
+            
+          </div>
+
+          <div class="ok">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="profile btn btn-outline-info rounded-circle">
+              <span class="bi bi-person"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <nav aria-label="breadcrumb" class="pt-6 text-right">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">صفحه اصلی</a></li>
+            <li class="breadcrumb-item active" aria-current="page">عضویت</li>
+          </ol>
+        </nav>
+
+        <div class="row mt-4 g-2">
+            <div class="col-lg-3 col-md-3 col-12 sidebar">
+                <div class=" border border-1  p-3">
+                    <div class="categories">
+                        <div class="categories-header d-flex justify-content-between align-items-center">
+                            <h2>دسته بندی</h2>
+                            <i class="bi bi-chevron-down"></i>
+                            
+                        </div>
+                        <div class="categories-body">
+                            <ul>
+                                <li>تیشرت</li>
+                                <li>مانتو</li>
+                                <li>شلوار</li>
+                                <li>پیراهن</li>
+                                <li>کافش</li>
+                                <li>کیف</li>
+                                <li>کفش</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="brands">
+                        <div class="brands-header d-flex justify-content-between align-items-center">
+                            <h2>دسته بندی</h2>
+                            <i class="bi bi-chevron-down"></i>
+                            
+                        </div>
+                        <div class="brands-body">
+                            <ul>
+                                <li>تیشرت</li>
+                                <li>مانتو</li>
+                                <li>شلوار</li>
+                                <li>پیراهن</li>
+                                <li>کافش</li>
+                                <li>کیف</li>
+                                <li>کفش</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col--lg-9 col-md-9 col-12 border border-1 products-section p-3">
+                <div class="filters d-flex justify-content-between align-items-center">
+                    <h2>فیلتر</h2>
+                    <div class="filter-items">
+                        <button class="btn btn-outline-danger">جدیدترین</button>
+                        <button class="btn btn-outline-danger">پرفروش ترین</button>
+                        <button class="btn btn-outline-danger">پربازدیدترین</button>
+                        <button class="btn btn-outline-danger">ارزان ترین</button>
+                        <button class="btn btn-outline-danger">گرانترین</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </main>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
